@@ -46,20 +46,12 @@ void LeftShift(struct Array *arr) {
   int lastIndex = arr->A[arr->length -1];
   for(int i=arr->length-1; i >= 0 ; i--) {
     arr->A[i] =  arr->A[i-1];
-    // 4th index = 3rd index
-    // 25 = 15; 4 
-    // 15 =  10; 3
-    // 10 =  6; 2
-    // 6 =  2; 1
-    // 2 = 0 
   }
 }
 
 void LeftShift(struct Array *arr) {
 
   for(int i=0; i < arr->length; i++)
-
-  
 
 }
 
